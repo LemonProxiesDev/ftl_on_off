@@ -2,7 +2,7 @@
 #!/bin/bash
 
 # replace old squid.conf with new conf. file.
-sudo cp squid.conf /etc/squid
+sudo cp /root/ftl_on_off/ftloff/banned.txt /etc/squid
 
 # restart squid service.
 sudo systemctl restart squid
