@@ -9,4 +9,4 @@ sudo systemctl restart squid
 
 ## discord webhook
 url='https://discordapp.com/api/webhooks/755876092073607298/FcDJ9TjaeTEiIRd_e6UQ4D501yS_Rn9lQ4GhWxhhDHY3yfhhU3XYzGZnRGpdqYSHSroB'
-curl -H "Content-Type: application/json" -X POST -d '{"username": ":lemon: FootLocker :flag_eu:", "content": "*Status:* green_circle:"}' $url
+curl -H "Content-Type: application/json" -X POST -d '{"username": ":lemon: FootLocker :flag_eu:", "content": "*Status:* :green_circle:"}' $url
